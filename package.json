@@ -1,0 +1,34 @@
+{
+  "name": "rest-api-hokk",
+  "version": "1.0.0",
+  "description": "rest api for hokk token price",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burgossrodrigo/hokk-rest-api.git"
+  },
+  "keywords": [
+    "hokk",
+    "finance",
+    "rest",
+    "api"
+  ],
+  "author": "@burgossrodrigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burgossrodrigo/hokk-rest-api/issues"
+  },
+  "homepage": "https://github.com/burgossrodrigo/hokk-rest-api#readme",
+  "dependencies": {
+    "@hokk/bsc-sdk": "^1.0.0",
+    "@mdex/heco-sdk": "^1.0.1",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v2-sdk": "^3.0.1",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.2"
+  }
+}
