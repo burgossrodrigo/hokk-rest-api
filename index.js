@@ -10,8 +10,10 @@ const router = express.Router()
 
 app.use(json());
 app.use(router);
+const PORT = process.env.PORT || 5000
+var server_host = process.env.YOUR_HOST || '0.0.0.0';
 
-app.listen(3000, () => {
+app.listen(PORT, server_host, () => {
     console.log(`server is listening on port: 3000`)
 })
 
